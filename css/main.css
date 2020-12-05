@@ -1,0 +1,81 @@
+body {
+    
+    margin: 0;
+    
+    background: -webkit-repeating-linear-gradient(#eca48e,rgb(49, 49, 49),#fe7248);
+    
+    
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar {
+    
+    background: -webkit-repeating-linear-gradient(#eca48e,rgb(49, 49, 49));
+
+}
+
+.form-inline{
+    margin-left: 500px;
+}
+
+.conto{
+    background: -webkit-radial-gradient(#ffffff,rgb(172, 133, 133));
+    border-radius: 8px;
+    width:300px;
+    height:200px;
+}
+
+.jumbotron{
+    border-radius: 0px;
+    height: 390px;
+}
+
+.cat{
+    color: white;
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    
+    
+    margin-bottom: 40px;
+}
+@keyframes fluido {
+    0% { background-position: 0 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0 50% }
+}
+
+
+
+.mySlides{
+    width:1270px;
+    height:400px;
+    margin-left: -40px;
+    margin-top: -70px;
+    
+}
+
+.tittle{
+    margin-top: -420px;
+}
+
+.logoo{
+    width: 60px;
+    height: 50px;
+}
+.tex{
+    color: #0f1e3b;
+    font-weight: bold;
+}
+
+.symb{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:90px;
+    height:90px;
+}
+
+.symb:hover{
+    cursor: pointer;
+}
